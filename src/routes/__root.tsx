@@ -40,7 +40,7 @@ export const Route = createRootRoute({
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@cim" },
       { name: "twitter:title", content: "CiM. Couture in Motion." },
-      { name: "twitter:description", content: "A human development ecosystem helping young people know who they are, build skills, and connect to real-world opportunity." },
+      { name: "twitter:description", content: "A human development ecosystem helping young people know who they are, build skills, and connect to real-world opportunity. " },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7486d40b-009a-42b1-b3b6-a0f8d3da8e97/id-preview-b87b06cc--25e87de5-203e-4535-a9a3-3e3779663cc7.lovable.app-1778129599508.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7486d40b-009a-42b1-b3b6-a0f8d3da8e97/id-preview-b87b06cc--25e87de5-203e-4535-a9a3-3e3779663cc7.lovable.app-1778129599508.png" },
     ],
