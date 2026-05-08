@@ -1,7 +1,14 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { CTABand, NumberedList, Section } from "@/components/page-parts";
 import { ArrowUpRight } from "lucide-react";
-import heroImage from "@/assets/hero.png";
+import heroImage from "@/assets/heromain.png";
+import slideImage1 from "@/assets/talita.jpeg";
+import slideImage2 from "@/assets/talita2.jpeg";
+import slideImage3 from "@/assets/talita3.jpeg";
+import slideImage4 from "@/assets/talita4.jpeg";
+
+
+
 import { ImageCarousel } from "@/components/image-carousel";
 
 export const Route = createFileRoute("/")({
@@ -102,12 +109,10 @@ function Home() {
         eyebrow="Faces of the movement"
         title={<>The young people <em className="text-accent not-italic">we build for</em>.</>}
         slides={[
-          { src: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=80", alt: "Young African woman smiling", caption: "Identity" },
-          { src: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80", alt: "Young person studying outdoors", caption: "Learning" },
-          { src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80", alt: "Group collaborating", caption: "Belonging" },
-          { src: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80", alt: "Confident young woman", caption: "Voice" },
-          { src: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=900&q=80", alt: "Mentor and student", caption: "Mentorship" },
-          { src: "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=900&q=80", alt: "Young leader portrait", caption: "Becoming" },
+          { src: slideImage1, alt: "Young African woman smiling", caption: "Identity" },
+          { src: slideImage2, alt: "Young person studying outdoors", caption: "Learning" },
+          { src: slideImage3, alt: "Group collaborating", caption: "Belonging" },
+          { src: slideImage4, alt: "Confident young woman", caption: "Voice" },
         ]}
       />
 
